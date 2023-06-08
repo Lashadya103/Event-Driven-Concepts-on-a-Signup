@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada:wght@400;700&display=swap');
+
+body {
+  background-color: #f4f4f4;
+  font-family: 'Scada', sans-serif;
+  background-image: url('bg.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-container {
+  background-color: rgba(178, 190, 181, 0.6); /* Background transparency */
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 40px;
+  margin-top: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  border-radius: 60px;
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+  font-family: 'Scada', sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #008000;
+  outline: none;
+  border-radius: 10px;
+  font-family: 'Scada', sans-serif;
+}
+
+button {
+  background-color: #3C3D3D;
+  color: #FFD700;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 60px;
+  border: 1px solid #008000;
+  font-family: 'Scada', sans-serif;
+}
+
+button:hover {
+  background-color: #006400;
+}
+
+.register-link {
+  text-align: center;
+}
+
+.register-link a {
+  color: #008000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Scada', sans-serif;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo-image {
+  width: 100px;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-family: 'Scada', sans-serif;
+}
+
+.forgot-password a {
+  color: #008000;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Scada', sans-serif;
+}
